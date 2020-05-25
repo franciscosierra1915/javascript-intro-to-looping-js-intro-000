@@ -21,7 +21,9 @@ function incrementVariable() {
   return i;
 }
 
-do 
+do {
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
 
   
 }
